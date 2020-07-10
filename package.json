@@ -1,6 +1,6 @@
 {
-  "name": "chrome-addon",
-  "version": "0.0.0",
+  "name": "@palekh/chrome-addon",
+  "version": "0.0.1",
   "private": true,
   "description": "Upload your addon to the Chrome Web Store",
   "main": "lib/main.js",
@@ -17,7 +17,7 @@
     "chrome",
     "setup"
   ],
-  "author": "Thomas McNiven",
+  "author": "Thomas McNiven & Igor Golopolosov",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.0.0",
