@@ -91,7 +91,7 @@ async function run() {
     }
     console.log('= Finish @palekh/chrome-adddon action =');
   } catch (error) {
-    core.setFailed(error.message);
+    core.setFailed(error);
     console.log('= Fail @palekh/chrome-adddon action =');
   }
 }
